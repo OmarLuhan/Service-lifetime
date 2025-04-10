@@ -1,0 +1,6 @@
+@Service_lifetime_HostAddress = http://localhost:5181
+
+GET {{Service_lifetime_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
