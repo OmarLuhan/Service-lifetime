@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Service_lifetime.Services;
 
 namespace Service_lifetime.Controllers;
+[ApiController]
 [Route("api/[controller]")]
 public class OperationsController(
     [FromKeyedServices("First")] IOperationService firstService,
